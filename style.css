@@ -5,24 +5,65 @@
 }
 
 header{
-    background-color: rgb(244, 166, 63);
-    min-height: 100px;
+    display: flex;
+    background-color: #ADD8E6;
+    min-height: 200px;
+    align-items: center;
+    justify-content:center ;
 }
 main{
     background-color: rgb(188, 188, 188);
-    min-height: 100px;
+    min-height: 200px;
+   /* min-width: 900px;*/
+    flex-grow: 1;
+    height: 500px;
+
+
 }
 
 footer{
     background-color: rgb(63, 72, 244);
-    min-height: 100px;
+    min-height: 200px;
 }
 aside{
     background-color: rgb(244, 63, 90);
-    min-height: 100px;
+    min-height: 200px;
+    width: 250px;
 }
 
-nav{
+.nav-lato{
     background-color: rgb(90, 244, 63);
-    min-height: 100px;
+    min-height: 200px;
+    width: 250px;
+}
+
+.container{
+    display: flex;
+}
+
+.nav-top{
+    background-color:#DAA520 ;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 70%;
+    min-width:450px;
+}
+
+div{
+    border: dashed 1px rgb(0, 0, 0);
+
+}
+
+#login, #link, #logout{
+    line-height: 50px;
+    min-width: 150px;
+}
+#link{
+    flex-grow:1;
+    text-align:center;
+    }
+
+#logout{
+    text-align: end;
 }
