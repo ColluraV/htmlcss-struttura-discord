@@ -7,19 +7,17 @@
 header{
     display: flex;
     background-color: #ADD8E6;
-    min-height: 200px;
+    height: 60px;
     align-items: center;
     justify-content:center ;
+
 }
-main{
+/*main{
     background-color: rgb(188, 188, 188);
     min-height: 200px;
-   /* min-width: 900px;*/
     flex-grow: 1;
-    height: 500px;
-
-
-}
+   height: 500px;
+}*/
 
 footer{
     background-color: rgb(63, 72, 244);
@@ -31,21 +29,20 @@ aside{
     width: 250px;
 }
 
-.nav-lato{
+.content-lato{
     background-color: rgb(90, 244, 63);
     min-height: 200px;
     width: 250px;
 }
 
-.container{
+.container, .nav-top{
     display: flex;
+    align-items: center;
 }
 
 .nav-top{
     background-color:#DAA520 ;
-    display: flex;
-    align-items: center;
-    height: 50px;
+    height: 40px;
     width: 70%;
     min-width:450px;
 }
@@ -56,7 +53,7 @@ div{
 }
 
 #login, #link, #logout{
-    line-height: 50px;
+    line-height: 40px;
     min-width: 150px;
 }
 #link{
@@ -66,4 +63,16 @@ div{
 
 #logout{
     text-align: end;
+}
+.primo-blocco{
+    min-width: 550px;
+    height: 400px;
+    background-color: #EE82EE;
+}
+
+.container{
+    width: 100%;
+    background-color: #121795;
+    justify-content: center;
+    height: 500px;
 }
