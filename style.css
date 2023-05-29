@@ -19,23 +19,8 @@ header{
    height: 500px;
 }*/
 
-footer{
-    background-color: rgb(63, 72, 244);
-    min-height: 200px;
-}
-aside{
-    background-color: rgb(244, 63, 90);
-    min-height: 200px;
-    width: 250px;
-}
 
-.content-lato{
-    background-color: rgb(90, 244, 63);
-    min-height: 200px;
-    width: 250px;
-}
-
-.container, .nav-top{
+.container-blu, .nav-top, .container-bianco{
     display: flex;
     align-items: center;
 }
@@ -46,17 +31,11 @@ aside{
     width: 70%;
     min-width:450px;
 }
-
-div{
-    border: dashed 1px rgb(0, 0, 0);
-
-}
-
 #login, #link, #logout{
     line-height: 40px;
     min-width: 150px;
 }
-#link{
+#link, .content-lato{
     flex-grow:1;
     text-align:center;
     }
@@ -68,11 +47,97 @@ div{
     min-width: 550px;
     height: 400px;
     background-color: #EE82EE;
+    width: 60%;
 }
 
 .container{
     width: 100%;
     background-color: #121795;
     justify-content: center;
-    height: 500px;
+    height: 450px;
+    display: flex;
+    align-items: center;
 }
+.container-bianco, .container-blu{
+    width: 100%;
+    justify-content: center;
+    height: 550px;
+}
+.container-bianco{
+    background-color: #ffffff;
+}
+.container-blu{
+    background-color: #121795;
+
+}
+.content-lato{
+    background-color: #1E90FF;
+    height: 80%;
+    min-width: 250px;
+    margin-left: 15%;
+}
+
+aside{
+    background-color: #FDBEC9;
+    height:80%;
+    width: 300px;
+    margin-right: 15%;
+
+}
+.adv1{
+    order: -1;
+    margin-right:0%;
+    margin-left: 15%;
+}
+
+
+.container-bianco>.content-lato{
+    margin-left: 0;
+    margin-right: 15%;
+}
+
+.container-prefoot{
+    width: 100%;
+    justify-content: center;
+    height: 900px;
+    background-color: #D3D3D3;
+    display: flex;
+    align-items: center;
+}
+
+.contenuto{
+    background-color:#228B22;
+    height:85%;
+    width: 70%;
+ 
+}
+
+footer{
+    background-color: rgb(63, 72, 244);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+#rosabot{
+ background-color: #F08080;
+ height: 90%;
+ width: 33%;
+ }
+
+  .turchesebot{
+    background-color: #20B2AA;
+    height: 90%;
+    border: dashed 1px white;
+    flex-grow: 1;
+
+ }
+ #utili{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 90%;
+    min-width: 450px;
+
+ }
