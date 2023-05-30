@@ -8,24 +8,11 @@ header {
     display: flex;
     background-color: #ADD8E6;
     height: 60px;
-    align-items: center;
-    justify-content: center;
-
 }
 
-/*main{
-    background-color: rgb(188, 188, 188);
-    min-height: 200px;
-    flex-grow: 1;
-   height: 500px;
-}*/
-
-
-.container-blu,
-.nav-top,
-.container-bianco {
+.container-blu, #utili, .nav-top, .container-bianco, header, .container, .container-prefoot, #footbot{
     display: flex;
-    align-items: center;
+    align-items: center;   
 }
 
 .nav-top {
@@ -33,17 +20,15 @@ header {
     height: 40px;
     width: 70%;
     min-width: 450px;
+    margin-left: 15%;
 }
 
-#login,
-#link,
-#logout {
+#login,#link,#logout {
     line-height: 40px;
     min-width: 150px;
 }
 
-#link,
-.content-lato {
+#link,.content-lato {
     flex-grow: 1;
     text-align: center;
 }
@@ -64,12 +49,9 @@ header {
     background-color: #121795;
     justify-content: center;
     height: 450px;
-    display: flex;
-    align-items: center;
 }
 
-.container-bianco,
-.container-blu {
+.container-bianco, .container-blu {
     width: 100%;
     justify-content: center;
     height: 550px;
@@ -81,7 +63,6 @@ header {
 
 .container-blu {
     background-color: #121795;
-
 }
 
 .content-lato {
@@ -96,7 +77,6 @@ aside {
     height: 80%;
     width: 300px;
     margin-right: 15%;
-
 }
 
 .adv1 {
@@ -116,21 +96,17 @@ aside {
     justify-content: center;
     height: 900px;
     background-color: #D3D3D3;
-    display: flex;
-    align-items: center;
 }
 
 .contenuto {
     background-color: #228B22;
     height: 85%;
     width: 70%;
-
 }
 
 footer {
     background-color: #23272A;
     height: 500px;
-
 }
 
 #rosabot {
@@ -144,27 +120,25 @@ footer {
     height: 90%;
     border: dashed 1px white;
     flex-grow: 1;
-
 }
 
-#utili {
+#utili{
     margin-left: 15%;
     margin-right: 15%;
-    display: flex;
-    align-items: center;
     width: 70%;
     height: 90%;
     min-width: 450px;
 }
 
 #footbot {
-    display: flex;
     justify-content: space-between;
     width: auto;
     height: 30px;
-    background-color: #7FFFD4;
-    align-items: center;
+    background-color: #7FFFD4;;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 15px;
+}
+#login,#link,#logout,.primo-blocco,.content-lato,aside,.contenuto{
+    border: dashed 1px black;
 }
